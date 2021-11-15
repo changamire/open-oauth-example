@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "env", {
+      "targets": {
+        "node": "current"
+      }
+    }
+    ], "react"
+  ],
+  "env": {
+    "development": {
+      "presets": ["react"]
+    }
+  },
+  "plugins": [
+    ["transform-runtime", {
+      "regenerator": true
+    }],
+    "transform-object-rest-spread",
+    "transform-class-properties"
+  ]
+}

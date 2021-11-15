@@ -1,0 +1,8 @@
+node_modules
+.idea
+backend/.cache
+backend/.terraform
+backend/.dist
+backend/.terraform.lock.hcl
+backend/terraform.tfstate
+backend/terraform.tfstate.*
