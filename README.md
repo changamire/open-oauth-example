@@ -10,5 +10,11 @@ function, and exposing a Lambda with an Express based API
 with a single method to calculate PI based on the Monte Carlo
 method.
 
-####Frontend
-A simple React app, protected by Cognito, and calling the backend API
+#### Frontend
+A simple React app, protected by Cognito, and calling the backend API.
+
+To run the frontend application
+ - Update the file `config.js` with the appropriate settings from your backend
+ - Run `npm install'
+ - Run `npm run start`
+ - Navigate to http://localhost:8080
