@@ -18,3 +18,7 @@ To run the frontend application
  - Run `npm install'
  - Run `npm run start`
  - Navigate to http://localhost:8080
+
+The architecture is shown in the figure below
+
+![Architecture](architecture.png)
